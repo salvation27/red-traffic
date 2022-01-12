@@ -121,10 +121,10 @@ p {
 .button_gradient {
   width: 246px;
   height: 50px;
-   background: var(--main-gradient);
-  background: var(--main-gradient-moz-);
-  background: var(--main-gradient-o-);
-  background: var(--main-gradient-ms-);
+   background: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
   border-radius: 10px;
   color: #fff;
   font-family: "Roboto-Bold";
@@ -187,19 +187,19 @@ p {
   bottom: -2px;
   left: -2px;
   right: -2px;
-   background: var(--main-gradient);
-  background: var(--main-gradient-moz-);
-  background: var(--main-gradient-o-);
-  background: var(--main-gradient-ms-);
+     background: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
   border-radius: 34px;
   z-index: -1;
 }
 
 .btn_gradient_white span {
-   background: var(--main-gradient);
-  background: var(--main-gradient-moz-);
-  background: var(--main-gradient-o-);
-  background: var(--main-gradient-ms-);
+  background: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: 164px;
@@ -308,10 +308,10 @@ section {
   border: none;
 }
 .wrap_input {
-   background: var(--main-gradient);
-  background: var(--main-gradient-moz-);
-  background: var(--main-gradient-o-);
-  background: var(--main-gradient-ms-);
+  background: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
   padding: 0px;
   margin: 0px;
   border-radius: 10px;
@@ -325,10 +325,10 @@ section {
 .form_btn {
   width: 100%;
   height: 75px;
-   background: var(--main-gradient);
-  background: var(--main-gradient-moz-);
-  background: var(--main-gradient-o-);
-  background: var(--main-gradient-ms-);
+  background: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
   border: none;
   font-size: 18px;
   font-family: "Roboto-Bold";
@@ -406,9 +406,6 @@ margin-top: 30px;
   justify-content: space-between;
 }
 .form_wrap_icon {
-  /* border:1px solid red */
-}
-.form_wrap_icon {
   display: flex;
   align-items: center;
   padding: 0px 40px;
@@ -441,10 +438,10 @@ margin-top: 30px;
 .line_gradient {
   width: 100%;
   height: 10px;
-  background: var(--main-gradient);
-  background: var(--main-gradient-moz-);
-  background: var(--main-gradient-o-);
-  background: var(--main-gradient-ms-);
+   background: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
   -webkit-box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2);
 -moz-box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2);
 box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2);
