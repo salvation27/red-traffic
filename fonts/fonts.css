@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'Bahnschrift';                                  
+  src:url('bahnschrift.ttf') ;    
+  font-display: swap; 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Bold';                                  
+  src:url('Roboto-Bold.ttf') ;    
+  font-display: swap; 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Regular';                                  
+  src:url('Roboto-Regular.ttf') ;    
+  font-display: swap; 
+  font-weight: normal;
+  font-style: normal;
+}
