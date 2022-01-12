@@ -81,10 +81,14 @@ p {
   height: 10px;
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
-   background: var(--main-gradient);
+   background: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+  background: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
+   /* background: var(--main-gradient);
   background: var(--main-gradient-moz-);
   background: var(--main-gradient-o-);
-  background: var(--main-gradient-ms-);
+  background: var(--main-gradient-ms-); */
 }
 .services_block {
   display: flex;
