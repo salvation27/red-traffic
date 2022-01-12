@@ -1,8 +1,0 @@
-:root {
-  --main-gradient: linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
-  --main-gradient-moz-: -moz-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
-  --main-gradient-o-: -o-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
-  --main-gradient-ms-: -ms-linear-gradient(89.92deg, #01c15a 34.9%, #01abe6 99.92%);
-  /* --main-gradient: linear-gradient(89.92deg, rgb(1, 193, 90,.96), rgba(1, 171, 230,.96)); */
-  --main-title-font: "Bahnschrift";
-}
