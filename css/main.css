@@ -568,16 +568,16 @@ section {
   top: 50%;
   left: 100px;
   margin-top: -250px;
-  animation: slidein  7s infinite ease-in-out;
+  animation: slidein 7s infinite ease-in-out;
   z-index: 50;
 }
 .figur4 {
- position: absolute;
+  position: absolute;
   top: 50%;
   left: 100%;
   margin-left: -200px;
   margin-top: -175px;
-  animation: slidein  7s infinite ease-in-out;
+  animation: slidein 7s infinite ease-in-out;
   z-index: 50;
 }
 
@@ -585,7 +585,7 @@ section {
   0% {
     transform: scale(1);
   }
- 50% {
+  50% {
     transform: scale(1.1);
   }
   100% {
