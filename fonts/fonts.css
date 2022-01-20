@@ -20,3 +20,17 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Roboto-Light';                                  
+  src:url('Roboto-Light.ttf') ;    
+  font-display: swap; 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Medium';                                  
+  src:url('Roboto-Medium.ttf') ;    
+  font-display: swap; 
+  font-weight: normal;
+  font-style: normal;
+}
