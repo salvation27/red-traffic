@@ -60,19 +60,20 @@ $('.responsive').slick({
   ]
 });
 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:4
-        }
-    }
-})
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: ["", ""],
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 1,
+    },
+  },
+});
 
 
 
