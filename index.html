@@ -28,6 +28,71 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <div class="mobile_menu">
+      <div class="mobile_menu_close">
+        <img src="img/close.png" alt="" />
+      </div>
+      <div class="menu_item">
+        <div class="menu_item_logo">
+          <img src="img/logo_white2.png" alt="" />
+        </div>
+        <div class="menu_item_services_wrap menu_item_services_wrap_main flex">
+          <div class="menu_item_services">
+            <div class="menu_item_services_title">
+              Основное меню
+            </div>
+            <div class="menu_item_services_nav">
+              <ul>
+                <li>
+                  <a href="">О нас</a>
+                </li>
+                <li>
+                  <a href="">Контакты</a>
+                </li>
+                <li>
+                  <a href="">Портфолио</a>
+                </li>
+                <li>
+                  <a href="">Услуги</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="menu_item_services_wrap flex">
+          <div class="menu_item_services">
+            <div class="menu_item_services_title">
+              Услуги Рекламы - Продвижение
+            </div>
+            <div class="menu_item_services_nav">
+              <ul>
+                <li>
+                  <a href="">Поисковое продвижение1</a>
+                </li>
+                <li>
+                  <a href="">Поисковое продвижение2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu_item_services">
+            <div class="menu_item_services_title">
+              Услуги по Разработке сайтов
+            </div>
+            <div class="menu_item_services_nav">
+              <ul>
+                <li>
+                  <a href="">Разработка лендингов1</a>
+                </li>
+                <li>
+                  <a href="">Разработка лендингов1</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <header id="header" class="header">
       <div class="container">
         <div class="row">
@@ -36,7 +101,7 @@
               <img src="img/logo_white2.png" alt="" />
             </div>
           </div>
-          <div class="col-10  col-md-9 d-flex justify-content-end">
+          <div class="col-10 col-md-9 d-flex justify-content-end">
             <div class="header_wrap">
               <div class="header_conact">
                 <a href="">+38 (068) 333 33 33 </a>
@@ -59,7 +124,7 @@
                     <a href="lending.html">Разработка лендингов</a>
                   </li>
                   <li>
-                    <a href="">Меню</a>
+                    <a href="" class="menu_open">Меню</a>
                   </li>
                 </ul>
               </div>
@@ -743,7 +808,9 @@
     <footer id="footer" class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-3 justify-content-center justify-content-sm-start">
+          <div
+            class="col-12 col-sm-3 justify-content-center justify-content-sm-start"
+          >
             <div class="footer_logo">
               <img src="img/logo.png" alt="" />
             </div>
@@ -774,7 +841,9 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 justify-content-sm-end d-flex col-sm-5 col-12 justify-content-center">
+          <div
+            class="col-lg-3 col-md-4 justify-content-sm-end d-flex col-sm-5 col-12 justify-content-center"
+          >
             <div class="footer_contact_wrap">
               <div class="footer_title">Контакты</div>
               <div class="footer_contact_text">Email: johndoe@gmail.com</div>
@@ -840,6 +909,7 @@
     <script src="js/accordion_menu.js"></script>
     <script src="js/jquery.arcticmodal-0.3.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/mobile_menu.js"></script>
     <script src="js/scrollMenu.js"></script>
   </body>
 </html>

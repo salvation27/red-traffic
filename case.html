@@ -28,15 +28,80 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <div class="mobile_menu">
+      <div class="mobile_menu_close">
+        <img src="img/close.png" alt="" />
+      </div>
+      <div class="menu_item">
+        <div class="menu_item_logo">
+          <img src="img/logo_white2.png" alt="" />
+        </div>
+        <div class="menu_item_services_wrap menu_item_services_wrap_main flex">
+          <div class="menu_item_services">
+            <div class="menu_item_services_title">
+              Основное меню
+            </div>
+            <div class="menu_item_services_nav">
+              <ul>
+                <li>
+                  <a href="">О нас</a>
+                </li>
+                <li>
+                  <a href="">Контакты</a>
+                </li>
+                <li>
+                  <a href="">Портфолио</a>
+                </li>
+                <li>
+                  <a href="">Услуги</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="menu_item_services_wrap flex">
+          <div class="menu_item_services">
+            <div class="menu_item_services_title">
+              Услуги Рекламы - Продвижение
+            </div>
+            <div class="menu_item_services_nav">
+              <ul>
+                <li>
+                  <a href="">Поисковое продвижение1</a>
+                </li>
+                <li>
+                  <a href="">Поисковое продвижение2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu_item_services">
+            <div class="menu_item_services_title">
+              Услуги по Разработке сайтов
+            </div>
+            <div class="menu_item_services_nav">
+              <ul>
+                <li>
+                  <a href="">Разработка лендингов1</a>
+                </li>
+                <li>
+                  <a href="">Разработка лендингов1</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <header id="header" class="header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-2 col-md-3">
             <div class="logo_wrap">
               <img src="img/logo_white2.png" alt="" />
             </div>
           </div>
-          <div class="col-lg-9 d-flex justify-content-end">
+          <div class="col-10  col-md-9 d-flex justify-content-end">
             <div class="header_wrap">
               <div class="header_conact">
                 <a href="">+38 (068) 333 33 33 </a>
@@ -59,7 +124,7 @@
                     <a href="lending.html">Разработка лендингов</a>
                   </li>
                   <li>
-                    <a href="">Меню</a>
+                    <a href="" class="menu_open">Меню</a>
                   </li>
                 </ul>
               </div>
@@ -68,9 +133,7 @@
         </div>
       </div>
     </header>
-    <section
-      id="offer"
-      class="offer"
+    <section id="offer" class="offer"
       style="
         background: url(img/red-traffic_bg_green-screen.png) no-repeat center
             center/cover,
@@ -90,7 +153,9 @@
               <div class="offer_title">
                 <h1>Кейсы продвижения</h1>
               </div>
-              <div class="offer_text">Портфолио выполненных проектов</div>
+              <div class="offer_text">
+                Портфолио выполненных проектов
+              </div>
             </div>
           </div>
         </div>
@@ -113,7 +178,7 @@
                   Обычно мы перезваниваем в течение 30 минут. Рабочее время:
                   Пн–Пт с 9:00–18:00
                 </div>
-                <div class="form_item_form">
+                <div class="form_item_form form_item_dectop">
                   <div class="wrap_input wrap_input_form">
                     <input type="text" placeholder="* Ваш Телефон" id="test" />
                   </div>
@@ -129,6 +194,19 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form_item_form form_item_mobile">
+              <div class="wrap_input wrap_input_form">
+                <input type="text" placeholder="* Ваш Телефон" id="test" />
+              </div>
+              <div class="wrap_input wrap_input_form">
+                <input type="text" placeholder="Ссылка на Ваш сайт" id="test" />
+              </div>
+              <div class="button_gradient button_gradient_form">Отправить</div>
             </div>
           </div>
         </div>
@@ -170,46 +248,52 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
-            <div class="ads_card_wrap">
-              <div class="ads_card_icon">
-                <img src="img/ads_icon1.png" alt="" />
+            <div class="col-lg-4">
+              <div class="ads_card_wrap">
+                <div class="ads_card_icon">
+                  <img src="img/ads_icon1.png" alt="" />
+                </div>
+                <div class="ads_card_desc_wrap">
+                  <div class="ads_card_ititle">Создание сайтов</div>
+                  <div class="ads_card_text">
+                    Сертифицированные специалисты Высокий профессионализм
+                    каждого специалиста подтвержден сертификатами Google, а
+                    каждая рекламная кампания проходит двойной контроль качества
+                  </div>
+                </div>
               </div>
-              <div class="ads_card_ititle">Создание сайтов</div>
-              <div class="ads_card_text">
-                Сертифицированные специалисты Высокий профессионализм каждого
-                специалиста подтвержден сертификатами Google, а каждая рекламная
-                кампания проходит двойной контроль качества
+            </div>
+            <div class="col-lg-4">
+              <div class="ads_card_wrap">
+                <div class="ads_card_icon">
+                  <img src="img/ads_icon2.png" alt="" />
+                </div>
+                <div class="ads_card_desc_wrap">
+                  <div class="ads_card_ititle">Экономия Вашего бюджета</div>
+                  <div class="ads_card_text">
+                    Вы полностью контролируете все расходы, имеете полный доступ
+                    к акканту и оплачиваете агентству фиксированную ставку, а не
+                    процент от бюджета
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ads_card_wrap">
+                <div class="ads_card_icon">
+                  <img src="img/ads_icon3.png" alt="" />
+                </div>
+                <div class="ads_card_desc_wrap">
+                  <div class="ads_card_ititle">Комплексный подход</div>
+                  <div class="ads_card_text">
+                    Кроме создания и ведения контекстной рекламы в Google Ads мы
+                    готовы предложить Вам внедрение необходимых технических
+                    доработок, а также профессиональную SEO-оптимизацию
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="ads_card_wrap">
-              <div class="ads_card_icon">
-                <img src="img/ads_icon2.png" alt="" />
-              </div>
-              <div class="ads_card_ititle">Экономия Вашего бюджета</div>
-              <div class="ads_card_text">
-                Вы полностью контролируете все расходы, имеете полный доступ к
-                акканту и оплачиваете агентству фиксированную ставку, а не
-                процент от бюджета
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="ads_card_wrap">
-              <div class="ads_card_icon">
-                <img src="img/ads_icon3.png" alt="" />
-              </div>
-              <div class="ads_card_ititle">Комплексный подход</div>
-              <div class="ads_card_text">
-                Кроме создания и ведения контекстной рекламы в Google Ads мы
-                готовы предложить Вам внедрение необходимых технических
-                доработок, а также профессиональную SEO-оптимизацию
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
     <div class="ads_wrap">
@@ -341,7 +425,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <div class="feed_back_wrap">
               <div class="feed_back_title">Контакты</div>
               <div class="feed_back_icon">
@@ -386,7 +470,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <div class="feed_back_wrap">
               <div class="feed_back_title">Отправьте заявку</div>
               <div class="feed_back_text text-center otstyp_text_form">
@@ -431,12 +515,12 @@
     <footer id="footer" class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-12 col-sm-3 justify-content-center justify-content-sm-start">
             <div class="footer_logo">
               <img src="img/logo.png" alt="" />
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-5 col-sm-4 d-sm-block d-none">
             <div class="footer_menu_wrap">
               <div class="footer_title">Меню</div>
               <ul>
@@ -462,7 +546,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 justify-content-end d-flex">
+          <div class="col-lg-3 col-md-4 justify-content-sm-end d-flex col-sm-5 col-12 justify-content-center">
             <div class="footer_contact_wrap">
               <div class="footer_title">Контакты</div>
               <div class="footer_contact_text">Email: johndoe@gmail.com</div>
@@ -529,5 +613,6 @@
     <script src="js/jquery.arcticmodal-0.3.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/scrollMenu.js"></script>
+    <script src="js/mobile_menu.js"></script>
   </body>
 </html>
