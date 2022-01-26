@@ -41,3 +41,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Roboto-Thin';                                  
+  src:url('Roboto-Thin.ttf') ;    
+  font-display: swap; 
+  font-weight: normal;
+  font-style: normal;
+}
